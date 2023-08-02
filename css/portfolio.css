@@ -1,0 +1,129 @@
+body {
+    background: #f3cdfa;
+	color: #713580;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: 'Roboto', Arial, sans-serif;
+    
+  }
+  
+  /* Define the styles for the navigation bar */
+  nav {
+    height: 80px;
+    position: relative;    
+    width: 100%;
+    color: #FBFBFC;
+    background-color: #713580;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .logo {
+    height: 60px;
+    margin: 10px 0;
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+  
+  nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+  
+
+
+/* Footer styles */
+.footer {
+    background-color: #713580;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+.footer-nav a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f3cdfa;
+  color: #ffa500;
+}
+.container1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container1 p span.typed-text {
+  font-weight: normal;
+  color: #713580;
+}
+.container1 p span.cursor {
+  display: inline-block;
+  background-color: #713580;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container1 p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #713580; }
+  49% { background-color: #713580; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #713580; }
+}

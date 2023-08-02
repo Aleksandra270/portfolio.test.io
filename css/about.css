@@ -1,0 +1,122 @@
+
+body {
+    background: #f3cdfa;
+	color: #713580;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  /* Define the styles for the navigation bar */
+  nav {
+    height: 80px;
+    position: relative;    
+    width: 100%;
+    color: #FBFBFC;
+    background-color: #713580;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .logo {
+    height: 60px;
+    margin: 10px 0;
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+  
+  nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 15px;
+    font-size: 18px;
+    color: #fff;
+}
+  
+  /* Add more CSS styles as needed for different sections of the website */
+  
+  /* about.css */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .text-column {
+    order: 1; /* Display the text column first on small screens */
+  }
+  
+  .image-column {
+    order: 2; /* Display the image column second on small screens */
+    
+  }
+  
+  .img-responsive {
+    max-width: 60%;
+    height: auto;
+    margin-left: 40px;
+
+  }
+  
+ /* Footer styles */
+.footer {
+    background-color: #713580;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+.footer-nav a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

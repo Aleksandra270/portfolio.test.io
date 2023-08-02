@@ -127,45 +127,63 @@ nav a {
 }
 
 
-/* Mobile styles */
-@media (max-width: 768px) {
-    nav {
-        height: auto;
-        position: static;
-        flex-direction: column;
-        align-items: center;
-    }
+/* Mobile styles for navigation */
+nav {
+    height: auto;
+    position: static;
+}
 
-    img.logo {
-        margin-left: 0;
-        margin-top: 20px;
-    }
+img.logo {
+    margin-left: 0;
+    margin-top: 10px;
+}
 
-    nav .links {
-        margin: 20px 0;
-    }
+nav .links {
+    margin: 20px 0;
+    flex-direction: column;
+}
 
-    .promo-content h1 {
-        font-size: 40px;
-        margin-top: 50px;
-    }
+nav a {
+    margin: 10px;
+    font-size: 16px;
+}
 
-    .promo-content p {
-        font-size: 20px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
+/* Mobile styles for promo-block and columns */
+.promo-block {
+    height: 400px;
+}
 
-    .column {
-        width: 100%;
-        padding: 20px;
-    }
+.column {
+    width: 100%;
+    padding: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+}
 
-    .row {
-        display: block;
-    }
+/* Mobile styles for text */
+.promo-content h1 {
+    font-size: 36px;
+    margin-top: 80px;
+}
 
-    .footer-nav li {
-        margin-right: 2rem;
-    }
+.promo-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Mobile styles for the footer */
+.footer-nav li {
+    margin-right: 2rem;
+}
+
+.footer {
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+/* Center the copyright text */
+.container {
+    display: flex;
+    justify-content: center;
 }

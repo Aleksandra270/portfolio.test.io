@@ -11,8 +11,7 @@
 </head>
 
 <body>
-
-   <nav>
+  <nav>
     <a href="index.html">
   <img src="img/logo1.png" alt="Yehorova logo" class="logo">
 </a>
@@ -65,6 +64,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+      const menuIcon = document.querySelector('.menu-icon');
+      const mobileLinks = document.querySelector('.mobile-links');
+  
+      menuIcon.addEventListener('click', () => {
+          mobileLinks.classList.toggle('show');
+      });
+  </script>
     
 </body>
 </html>

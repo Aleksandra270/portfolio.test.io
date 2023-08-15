@@ -129,11 +129,14 @@ nav a {
 
 
 
+
+
+
 /* Mobile styles */
 @media (max-width: 768px) {
     nav {
         height: auto;
-        position: static;
+        position: static; /* Change this to "static" */
         flex-direction: column;
         align-items: center;
     }
@@ -145,52 +148,13 @@ nav a {
 
     nav .links {
         margin: 20px 0;
+        display: flex; /* Add this line to display the links */
+        flex-direction: column; /* Change this to "column" */
+        align-items: center; /* Add this line to center align the links */
     }
 
-    .promo-content h1 {
-        font-size: 40px;
-        margin-top: 50px;
-    }
-
-    .promo-content p {
-        font-size: 20px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-
-    .column {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .row {
-        display: block;
-    }
-
-    .footer-nav li {
-        margin-right: 2rem;
-    }
+    /* ... */
 }
-
-/* Update the mobile styles */
-@media (max-width: 768px) {
-    nav {
-        height: auto;
-        position: static;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    img.logo {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    nav .links {
-        margin: 20px 0;
-    }
-}
-
 /* Update the mobile styles */
 @media (max-width: 768px) {
     /* ... */

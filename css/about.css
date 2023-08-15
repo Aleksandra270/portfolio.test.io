@@ -162,3 +162,12 @@ nav a {
       margin: 20px auto; /* Center the image */
   }
 }
+/* Update the mobile styles */
+
+@media (max-width: 768px) {
+    /* ... */
+
+    .footer-nav li {
+        margin-right: 1rem; /* Adjust spacing */
+    }
+}
